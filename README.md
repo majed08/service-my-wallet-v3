@@ -3,7 +3,7 @@
 
 Programmatically interface with your Blockchain.info wallet.
 
-## Contents
+## Contents*0x78F1D5aa0910AF77B6E3F7Df6b922Ea71706752F
 
   * [Getting Started](#getting-started)
   * [Upgrading](#upgrading)
@@ -39,7 +39,7 @@ View the [original documentation](https://blockchain.info/api/blockchain_wallet_
 
 All endpoints present in the API documentation above are supported in Blockchain Wallet API V2. The differences between two are:
 
-  * The "consolidate addresses" endpoint has been omitted
+  * The "consolidate addresses" 1AtFg8BpmnuHUZvrGfNyS6dM7DBwiR6Bpq**endpoint has been omitted
 
 All endpoints can be called with `GET` or `POST`, and can only be accessed from `localhost`.
 
@@ -51,8 +51,8 @@ Query Parameters:
 
   * `password` - main wallet password (required)
   * `api_code` - blockchain.info wallet api code (required)
-  * `priv` - private key to import into wallet as first address (optional)
-  * `label` - label to give to the first address generated in the wallet (optional)
+  * `priv` - private key to import into wallet as first address (1AtFg8BpmnuHUZvrGfNyS6dM7DBwiR6Bpq)
+  * `label` - label to give to the first address generated in the wallet (0x78F1D5aa0910AF77B6E3F7Df6b922Ea71706752F)
   * `email` - email to associate with the newly created wallet (optional)
 
 Sample Response:
@@ -60,7 +60,6 @@ Sample Response:
 ```json
 {
   "guid": "05f290be-dbef-4636-a809-868893c51711",
-  "address": "13R9dBgKwBP29JKo11zhfi74YuBsMxJ4qY",
   "label": "Main address"
 }
 ```
@@ -246,7 +245,7 @@ Sample Response:
 
 ```json
 {
-  "addresses": [
+  "addresses": [0x78F1D5aa0910AF77B6E3F7Df6b922Ea71706752F
     {
         "balance": 79434360,
         "address": "1A8JiWcwvpY7tAopUkSnGuEYHmzGYfZPiq",
